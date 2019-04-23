@@ -1,0 +1,14 @@
+.btn {
+  display: block;
+  border: none;
+  background: #333;
+  border-radius: 2px;
+  color: #fff;
+  padding: 4px 10px;
+
+  &:active,
+  &:focus {
+    background: #111;
+    outline: none;
+  }
+}
